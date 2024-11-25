@@ -1,3 +1,4 @@
+*pasar un número decimal a binario
 @ECHO OFF
     set /p numero= Dime un numero para pasar a binario:
     set /a division=%numero% % 2
