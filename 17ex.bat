@@ -3,9 +3,12 @@ title cad cadea
 setlocal enabledelayedexpansion
 
     set "cad=Hola Mundo!"
+    set "invertida="
 
-    for /l %%x in (11,-1,1) do timeout /t 2
-    cls
-    echo.
-    echo !cad:~0,%%x!
+    for /l %%x in (0,1,11) do (
+        set "caracter=!cad:~%%x,1!"
+        set "invertida=!caracter!!invertida!"
+    )
+    
+    echo La cadena invertida es: !invertida!
 pause>nul
