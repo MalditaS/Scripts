@@ -10,7 +10,7 @@ echo d)Salir
 
 set /p operacion=Que operacion quieres realizar?
 
-if "%operacion%""=="a" (goto suma) else (goto resta)
+if "%operacion%"=="a" (goto suma) else (goto resta)
 ::Al ser cadenas es necesario poner ""
 :suma
     set /a resultado=%1+%2
