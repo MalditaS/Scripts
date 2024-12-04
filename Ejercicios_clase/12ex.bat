@@ -9,7 +9,7 @@ title Login
 
 :correcto
     echo CONTRASEÑA CORRECTA!
-    echo Usted dispone de pribilegio para ver el contenido oculto...
+    echo Usted dispone de privilegio para ver el contenido oculto...
     type secreto.txt
     pause>nul
     exit
