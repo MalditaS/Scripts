@@ -12,7 +12,7 @@ cls
 		echo El numero necesario es mayor
 		goto pregunta
 	)
-)
+
 	echo El numero es correcto!
 
 pause>nul
