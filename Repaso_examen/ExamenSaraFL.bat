@@ -14,7 +14,7 @@ set /p "opcion=Que funcion quieres realizar? "
 if %opcion%==1 ( goto borrar ) else ( goto copiar )
 
 :borrar
-set /p "del=Dime la ruta del archivo o archivos que quieres eliminar: "ç
+set /p "del=Dime la ruta del archivo o archivos que quieres eliminar: "
 if not exist %del% ( echo No existe el archivo a eliminar )
 del /P %del%
 
